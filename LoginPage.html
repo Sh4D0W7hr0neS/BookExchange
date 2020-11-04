@@ -1,0 +1,63 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="assets/css/login.css">
+        <!---->
+        <!--Bootstrap implementation-->
+    </head>
+    <body>
+        <!--OuterWrapper-->
+        <section class="outer_container">
+            <div class="container-fluid" class="outer_wrapper">
+                <!--Header-->
+                <section id="header">
+                    <div class="container-fluid">
+                        <header>
+                            <a> <!--add banner page href-->
+                                <img class="img-fluid" id="headericon" src="assets/images/bmsce_logo.jpg" alt="test">  
+                            </a>                            
+                        </header>
+                    </div>
+                </section>
+                <!--Login form-->
+                <section>
+                    <div class="form_wrapper">
+                        <form>
+                            <!--Form Header-->
+                            <div class="form_header">
+                                <div class="form_header_title">
+                                    <h2>
+                                        <label class="header_title">Login</label>
+                                    </h2>
+                                </div>
+                                <div class ="form_header_icon">
+                                    <img class="header_icon" src="assets/images/header_icon.jpg">
+                                </div>
+                            </div>
+                            <!--Form Buttons-->
+                            <div class="form_inputs">
+                                <input class="wrap-input100 validate-input" type="text" name="email" placeholder="Email">
+                                <input class="wrap-input100 validate-input" type="password" name="password" placeholder="Passwopd">
+                            </div>
+                            <div class="form_buttons">
+                                <button>
+                                    Login
+                                </button>
+                            </div>
+                            <!--Login Fotter-->
+                            <div class="form_footer">
+                                <span id="form_forgot_password" onclick="document.getElementBYID('modal_forgot_password').style.display='block'">
+                                    <label>Forgot Password?</label>
+                                </span>
+                                <span id="form_forgot_password" onclick="document.getElementBYID('modal_create_account').style.display='block'">
+                                    <label>No Account? Register Here.</label>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            
+            </div>
+        </section>
+    </body>
+</html>

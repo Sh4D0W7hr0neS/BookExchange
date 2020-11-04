@@ -1,0 +1,50 @@
+body {
+    background-color: #020B13;
+    color: #c0c2c4;
+    font-family: "Signika", sans-serif;
+    font-size: 13pt;
+    font-weight: 300;
+    line-height: 1.65;
+}
+
+form {
+	margin: 0 0 2em 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+    appearance: none;
+    border-radius: 4px;
+    border: none;
+    border: solid 1px;
+    color: inherit;
+    display: block;
+    outline: 0;
+    padding: 0 1em;
+    text-decoration: none;
+}
+
+button{
+    background-color: #041625;
+    color: #ffffff !important;
+}
+button:hover{
+    background-color: #06243c;
+}
+button:active{
+    background-color: #02080e;
+}
+
+.form_wrapper{
+    width: 40%;
+    margin-left: 20%;
+}
+
+#header_icon{
+    width:20%;
+}
+#header {
+    background-color: white;
+}
