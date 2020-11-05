@@ -8,55 +8,64 @@
     <body>
         <!--OuterWrapper-->
         <section class="outer_container">
-            <div class="container-fluid" class="outer_wrapper">
+            <div class="container-fluid outer_wrapper">
                 <!--Header-->
                 <section id="header">
-                    <div class="container-fluid">
+                    <div class="container-fluid header_wrapper">
                         <header>
                             <a> <!--add banner page href-->
-                                <img class="img-fluid" id="headericon" src="assets/images/bmsce_logo.jpg" alt="test">  
+                                <img class="img-fluid" class="header_logo" src="assets/images/bmsce_logo.jpg" alt="test">  
                             </a>                            
                         </header>
                     </div>
                 </section>
                 <!--Login form-->
-                <section>
-                    <div class="form_wrapper">
+                <section id="form">
+                    <div class="form_outer_wrapper">
+                    <div class="container-fluid form_wrapper">
                         <form>
                             <!--Form Header-->
-                            <div class="form_header">
-                                <div class="form_header_title">
+                            <div class="container-fluid form_header">
+                                <div class="container-fluid form_header_title">
                                     <h2>
                                         <label class="header_title">Login</label>
                                     </h2>
                                 </div>
-                                <div class ="form_header_icon">
+                                <div class ="ontainer-fluid form_header_icon">
                                     <img class="header_icon" src="assets/images/header_icon.jpg">
                                 </div>
                             </div>
-                            <!--Form Buttons-->
+                            <!--Form Inputs-->
                             <div class="form_inputs">
-                                <input class="wrap-input100 validate-input" type="text" name="email" placeholder="Email">
-                                <input class="wrap-input100 validate-input" type="password" name="password" placeholder="Passwopd">
+                                <div class="form_inputs_email">
+                                    <input class="wrap-input100 validate-input" type="text" name="email" placeholder="Email" id="form_inputs_email">
+                                </div>
+                                <div class="form_inputs_password">
+                                    <input class="wrap-input100 validate-input" type="password" name="password" placeholder="Password" id = "form_inputs_password">
+                                </div>
+                                <div class="form_inputs_button">
+                                    <button id="form_inputs_button">
+                                        Login
+                                    </button>
+                                </div>
                             </div>
-                            <div class="form_buttons">
-                                <button>
-                                    Login
-                                </button>
-                            </div>
-                            <!--Login Fotter-->
+                            <!--Login Footer-->
                             <div class="form_footer">
-                                <span id="form_forgot_password" onclick="document.getElementBYID('modal_forgot_password').style.display='block'">
-                                    <label>Forgot Password?</label>
-                                </span>
-                                <span id="form_forgot_password" onclick="document.getElementBYID('modal_create_account').style.display='block'">
-                                    <label>No Account? Register Here.</label>
-                                </span>
+                                <div class="form_footer_password">
+                                    <span id="form_forgot_password" onclick="document.getElementBYID('modal_forgot_password').style.display='block'">
+                                        <label>Forgot Password?</label>
+                                    </span>
+                                </div>
+                                <div class="form_footer_register">
+                                    <span id="form_forgot_password" onclick="document.getElementBYID('modal_create_account').style.display='block'">
+                                        <label>No Account? Register Here.</label>
+                                    </span>
+                                </div>
                             </div>
                         </form>
                     </div>
+                    </div>
                 </section>
-            
             </div>
         </section>
     </body>
