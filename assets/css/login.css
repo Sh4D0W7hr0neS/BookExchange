@@ -15,7 +15,7 @@ form {
 
 button{
     background-color: #041625;
-    color: #ffffff !important;
+    color: #ffffff
 }
 button:hover{
     background-color: #06243c;
@@ -101,4 +101,62 @@ header {
 .form_footer_register{
     display: flex;
     justify-content: center;
+}
+
+.home_details{
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+
+.home_details_header,
+.home_details_header_detailbox
+{
+    display: block;
+    margin-top: 5%;
+    background-color: #142736;
+    padding: 1%;
+    border-radius: 5%;
+    font-size: 110%;
+}
+.home_details_header_label,
+.home_details_header_icon{
+    display: flex;
+    justify-content: center;
+}
+#home_details_header_label{
+    font-size: 175%;
+}
+.home_details_header_icon{
+    margin-top: 10%;
+}
+.home_buttons{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+.home_buttons_cont{
+    display: block;
+    margin-top: 5%;
+    background-color: #142736;
+    padding: 1%;
+    border-radius: 5%;
+    white-space: nowrap;
+}
+.home_buttons_cont_buy{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.home_buttons_cont_button{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.home_buttons_cont_button_button{
+    font-size: 115%;
+    border-radius: 5%;
+}
+.home_buttons_cont_label_label{
+    font-size: 115%;
 }
